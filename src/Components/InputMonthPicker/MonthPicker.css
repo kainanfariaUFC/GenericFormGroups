@@ -1,0 +1,8 @@
+.generic-monthpicker .react-datepicker{
+    width: 17.1em !important;
+    right: 80px !important;
+}
+
+.generic-monthpicker .react-datepicker__triangle{
+    left: 100px !important;
+}

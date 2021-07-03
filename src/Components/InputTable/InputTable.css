@@ -1,0 +1,40 @@
+.generic-input-table{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    max-width: 100%;
+    margin-bottom: 14px;
+}
+
+.generic-input-table-head{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    max-width: 100%;
+    margin-bottom: 14px;
+}
+
+.input-table{
+    padding: 15px;
+}
+
+.span-legend-input-table{
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.span-title-input-table{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.generic-input-table input[type=number]{
+    padding: 4px 4px 4px 6px !important;
+}
+
+.generic-input-table input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

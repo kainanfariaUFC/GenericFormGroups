@@ -1,0 +1,28 @@
+.new-button {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    cursor: pointer;
+    background-color: #e61e1e;
+    font-size: 16px;
+    color: #fff;
+    height: 47px;
+    padding: 15px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
+
+.button-wrap {
+  position: relative;
+}
+
+.container-upload-field{
+    display: flex;
+}
+
+.new-button-value{
+    height: 47px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #bebec0;
+}

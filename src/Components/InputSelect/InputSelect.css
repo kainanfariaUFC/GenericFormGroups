@@ -1,0 +1,11 @@
+.input-generic-select option:disabled{
+    color: #495057
+}
+
+.input-generic-select{
+    height: 41px !important;
+}
+
+.input-generics-select-placeholder{
+    color: #495057
+}

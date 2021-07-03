@@ -1,0 +1,80 @@
+.generic-card-dash {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #E9EAF2;
+}
+
+.generic-card-dash-icon{
+    font-size: 66px;
+    color: #e61e1e;
+    margin: auto;
+}
+
+.icon-col, .linhas-col{
+    margin: auto;
+}
+
+.linhas-col .valor{
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.linhas-col .descricao{
+    color: #343640;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1297px) {
+
+    .generic-card-dash-icon{
+        font-size: 56px;
+    }
+
+    .linhas-col .valor{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .linhas-col .descricao{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .generic-card-dash-icon{
+        font-size: 46px;
+    }
+
+    .linhas-col .valor{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .linhas-col .descricao{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .generic-card-dash-icon{
+        font-size: 36px;
+    }
+
+    .linhas-col .valor{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .linhas-col .descricao{
+        font-size: 12px;
+    }
+}

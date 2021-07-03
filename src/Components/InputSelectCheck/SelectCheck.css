@@ -1,0 +1,47 @@
+.select-check-ul{
+    padding-inline-start: 1em !important;
+    margin-top: 1em;
+    overflow: auto;
+    /* max-height: 18.75em; */
+    padding-top: 10px;
+}
+
+.checkbox-layer{
+    width: 100%;
+    max-height: 160px;
+    overflow: auto;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    margin-bottom:  0px;
+}
+
+.checkbox-layer div{
+    margin-bottom:  0px;
+}
+
+.input-select-check{
+    height: 41px;
+    border-right: none !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    cursor: default;
+    padding: 5px 10px !important;
+}
+
+.input-select-check:read-only{
+    background-color: white !important;
+}
+
+.input-select-check::placeholder{
+    color: #495057 !important;
+}
+
+.input-select-check-prepend{
+    border: 1px solid #BEBEBE;
+    height: 41px;
+    border-left: none;
+
+    border-top-right-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
+    padding-top: 10px;
+    font-size: 18px;
+}

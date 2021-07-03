@@ -1,0 +1,72 @@
+.slider-generics{
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    background-color: var(--color-light);
+    margin: 20px 0px;
+    border-radius: 8px;
+}
+
+.slider-generics .PrivateValueLabel-label-10{
+    transform: initial;
+}
+
+.slider-generics .PrivateValueLabel-label-5{
+    transform: initial;
+}
+
+.slider-generics .PrivateValueLabel-offset-3{
+    top: -28px;
+}
+
+.slider-generics .MuiSlider-root{
+    color: #e61e1e;
+    margin-right: 20px;
+    padding-top: 30px;
+}
+
+.slide-label{
+    width: max-content;
+    min-width: 60px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 26px;
+}
+
+.slider-generics-label{
+    text-align: center;
+    font-size: 10px;
+    padding: 0px 10px
+}
+
+.slider-generics .MuiSlider-valueLabel{
+    left: -25px;
+}
+
+.on-custom-slider-tooltip{
+    color: #e61e1e;
+    cursor: pointer;
+}
+
+.off-custom-slider-tooltip{
+    color: #b2b2b2;
+    cursor: pointer;
+}
+
+.slider-generics .MuiSlider-valueLabel > span{
+    transform: initial;
+    border-radius: 0px;
+    width: max-content;
+    min-width: 65px;
+    box-shadow: 0px 2px 3px 0px #00000024;
+    border-radius: 4px;
+    max-height: 30px;
+    border-radius: 50px;
+    margin-left: -25px;
+}
+.slider-generics .MuiSlider-valueLabel > span > span{
+    transform: initial;
+}
